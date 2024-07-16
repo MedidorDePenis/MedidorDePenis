@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+button{
+    background-color: rgb(124, 0, 128);
+    padding: 8px 15px;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    width: 400px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.425);
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: block;
+    font-family: "Poppins";
+    text-shadow: 1px 1px 3px rgb(10, 6, 10);
+    border-bottom: 2px rgba(237, 178, 255, 0.432) solid;
+}
+input{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.137);
+    padding: 7px 13px;
+    width: 200px;
+    border-radius: 30px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(245, 245, 245, 0.336);
+    color: white;
+
+}
+input::placeholder{
+    font-size: 11.5px;
+    font-family: "Poppins";
+}
+h1{
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: block; 
+    color: whitesmoke;
+    font-family: 'Poppins';
+    text-shadow: 1px 1px 2px rgba(31, 31, 31, 0.781);
+
+}
+#fundo1{
+    
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    padding: 100px 10px;
+    width: 500px;
+    border-radius: 12px;
+    justify-content: center;
+    display: block; 
+    border: 1px solid rgba(255, 255, 255, 0.308);
+    margin: auto;
+    margin-top: auto;
+
+
+}
+footer{
+    color: whitesmoke;
+    font-family: "Poppins";
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-shadow: 1px 1px 3px black;
+}
+body{
+    background: url(vintage-abstract-black-white-wave-background-free-video.png) no-repeat;
+    background-size: cover;
+    font-family: "Poppins";
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+button:active{
+    bottom: 3px;
+    border: none;
+}
+
