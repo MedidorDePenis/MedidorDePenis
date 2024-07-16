@@ -1,2 +1,0 @@
-# MedidorDePenis
-AvaliadorDePenis &lt;!-- Aproveite -->
